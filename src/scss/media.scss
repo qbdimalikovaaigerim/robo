@@ -1,0 +1,550 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+
+    .home-block {
+        width: 50%;
+        margin-top: 140px;
+    }
+
+    .home__img {
+        width: 50%;
+        height: auto;
+    }
+
+    .home-block__title {
+        color: #ffffff;
+        font-size: 60px;
+    }
+
+    .home-block__subtitle {
+        padding: 10px 0 40px;
+        color: #ffffff;
+        font-size: 17px;
+        font-family: Jost;
+    }
+
+    .coaches-track {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .coaches-track__card-img {
+        height: 420px;
+    }
+
+    .coaches-track__card-profession {
+        white-space: nowrap;
+    }
+
+    .package-cards {
+        gap: 25px;
+    }
+
+    .package-card {
+        width: 31.6%;
+        height: 440px;
+        padding: 30px;
+    }
+
+    .package-card__btn {
+        width: 100%;
+        height: 60px;
+    }
+
+    .package-card_active {
+        height: 460px;
+    }
+}
+
+@media (max-width:768px) {
+    .header-nav__link {
+        font-size: 26px;
+    }
+
+    .header-nav__number {
+        font-size: 24px;
+    }
+
+    .header-nav__ul {
+        gap: 10px;
+    }
+
+    .header-nav__li-link {
+        font-size: 16px;
+    }
+
+
+    .home-block {
+        margin-top: 45px;
+    }
+
+    .home-block__title {
+        font-size: 44px;
+    }
+
+    .home-block__subtitle {
+        padding: 0 0 25px;
+    }
+
+    .home-block__btn {
+        width: 240px;
+        height: 70px;
+    }
+
+    .about {
+        margin: 70px 0;
+    }
+
+    .about__text {
+        width: 84%;
+        font-size: 27px;
+    }
+
+    .about-items {
+        margin-top: 40px;
+        align-items: flex-start;
+        gap: 20px;
+
+    }
+
+    .about-item__number {
+        white-space: nowrap;
+        color: #d52027;
+        font-size: 45px;
+    }
+
+    .about-item__text {
+        font-size: 16px;
+    }
+
+
+    .result {
+        padding: 70px 0;
+    }
+
+    .result__title {
+        font-size: 42px;
+    }
+
+    .result-blocks {
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .result-block {
+        gap: 12px;
+    }
+
+    .result-block__text {
+        font-size: 17px;
+    }
+
+    .result-block__btn {
+        width: 155px;
+        height: 38px;
+        font-size: 11px;
+    }
+
+    .result-block__available {
+        top: -45px;
+        left: 110px;
+    }
+
+    .coaches {
+        padding: 70px 0;
+    }
+
+    .coaches__title {
+        font-size: 42px;
+    }
+
+    .coaches-track {
+        margin-top: 30px;
+    }
+
+    .coaches-track__card {
+        width: 235px;
+    }
+
+    .coaches-track__card-img {
+        width: 100%;
+        height: 341px;
+
+
+        .coaches-track__card-name {
+            color: #141024;
+            margin: 0px 0 10px;
+            font-size: 18px;
+        }
+
+        .coaches-track__card-profession {
+            font-size: 14px;
+        }
+
+        .package {
+            padding-bottom: 70px;
+        }
+
+        .package__title {
+            font-size: 42px;
+        }
+
+        .package-cards {
+            margin-top: 20px;
+        }
+
+        .package-card__price {
+            margin: 50px 0 20px;
+            color: #141024;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .package-card__level {
+            font-size: 32px;
+        }
+
+        .package-card {
+            width: 31.6%;
+            height: 348px;
+        }
+
+        .package-card_active {
+            height: 368px;
+        }
+
+        .package-card__text {
+            font-size: 16px;
+        }
+
+        .package-card__btn {
+            height: 50px;
+            font-size: 15px;
+        }
+
+        .signUp {
+            padding: 70px 0;
+        }
+
+        .footer-block {
+            justify-content: space-between;
+            gap: 0;
+        }
+
+        .signUp-title {
+            width: 48%;
+        }
+
+        .signUp-form {
+            width: 48%;
+        }
+
+        .signUp::before {
+            height: 82px;
+        }
+
+        .foot {
+            height: 115px;
+        }
+
+        .foot-link__robo {
+            color: #ffffff;
+            font-size: 26px;
+        }
+
+        .foot__number {
+            font-size: 26px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:480px) {
+    .header {
+        height: 70px;
+    }
+
+    .header-nav__link {
+        color: #ffffff;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 700;
+    }
+
+    .header-nav__ul {
+        display: none;
+    }
+
+    .active {
+        width: 100%;
+        height: 100%;
+        background-color: #141024;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .header-nav__close {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .header-nav__number {
+        display: none;
+    }
+
+    .header-nav__phone {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .home {
+        padding-bottom: 40px;
+    }
+
+    .home_blocks {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .home-block {
+        width: 90%;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .home-block__title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .home-block__subtitle {
+        font-size: 16px;
+    }
+
+    .home__img {
+        width: 90%;
+        height: auto;
+    }
+
+    .home-block__btn {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 16px;
+    }
+
+    .about {
+        margin: 60px 0;
+    }
+
+    .about__text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-item__number {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .about-item__text {
+        text-align: center;
+    }
+
+    .about-item {
+        width: 80%;
+    }
+
+    .result {
+        padding: 60px 0;
+    }
+
+    .result__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .result-blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result-block {
+        width: 85%;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .result-block_title {
+        font-size: 20px;
+    }
+
+    .result-block__text {
+        font-size: 17px;
+    }
+
+    .result-block__available {
+        align-items: flex-end;
+        top: -64px;
+        left: 10px;
+    }
+
+    .result-block__btn {
+        width: 224px;
+        height: 52px;
+        font-size: 14px;
+    }
+
+    .coaches {
+        padding: 60px 0;
+    }
+
+    .coaches__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .coaches-hidden {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .coaches-track {
+        width: 281%;
+    }
+
+    .coaches-arrows__buttons {
+        display: none;
+    }
+
+    .coaches-line {
+        width: 100%;
+    }
+
+    .coaches-line::before {
+        width: 48%;
+    }
+
+    .package__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .package-cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .package-card {
+        width: 100%;
+        height: 394px;
+    }
+
+    .package-card:hover {
+        height: 420px;
+    }
+
+    .package-card_active {
+        height: 420px;
+    }
+
+    .package-card__level {
+        font-size: 30px;
+    }
+
+    .package-card__price {
+        font-size: 50px;
+        margin: 50px 0 20px;
+        text-align: center;
+    }
+
+    .package-card__btn {
+        height: 60px;
+    }
+
+    .package {
+        padding-bottom: 60px;
+    }
+
+    .signUp {
+        padding: 60px 0;
+    }
+
+    .footer-block {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .signUp-titles {
+        width: 100%;
+        text-align: center;
+    }
+
+    .signUp-titles__title {
+        font-size: 30px;
+    }
+
+    .signUp-titles__subtitle {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .signUp-form {
+        width: 100%;
+    }
+
+    .signUp-form::before {
+        height: 61px;
+    }
+
+    .foot {
+        height: 197px;
+        padding: 40px 0 20px;
+    }
+
+    .foot-block {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: normal;
+        position: relative;
+    }
+
+    .foot-links__second {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

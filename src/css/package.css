@@ -1,0 +1,102 @@
+.package {
+  padding-bottom: 120px;
+}
+
+.package__title {
+  color: #141024;
+  font-size: 50px;
+  font-family: Jost;
+  font-weight: 600;
+}
+
+.package-cards {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.package-card {
+  border-radius: 20px;
+  width: 360px;
+  height: 460px;
+  border: 1px solid rgba(20, 16, 36, 0.200000003);
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.package-card__level {
+  color: #141024;
+  text-align: center;
+  font-size: 30px;
+  font-family: Jost;
+  font-weight: 600;
+}
+
+.package-card__price {
+  margin: 63px 0 20px;
+  color: #141024;
+  font-size: 50px;
+  font-family: Jost;
+  font-weight: 600;
+}
+
+.package-card__text {
+  color: #141024;
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 18px;
+  font-family: Jost;
+}
+
+.package-card__btn {
+  background-color: #d52027;
+  width: 280px;
+  height: 79px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Jost;
+  border: none;
+}
+
+.package-card_active {
+  height: 500px;
+  background-color: #141024;
+}
+.package-card_active h4 {
+  color: white;
+}
+.package-card_active h3 {
+  color: white;
+}
+.package-card_active p {
+  color: white;
+}
+
+.package-card:hover {
+  height: 500px;
+  background-color: #141024;
+}
+.package-card:hover h4 {
+  color: white;
+}
+.package-card:hover h3 {
+  color: white;
+}
+.package-card:hover p {
+  color: white;
+}

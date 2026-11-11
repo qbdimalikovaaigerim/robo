@@ -1,0 +1,11 @@
+.about {
+  width: 100%;
+  margin: 120px 0;
+}
+
+.about__text {
+  width: 891px;
+  color: #141024;
+  font-size: 30px;
+  font-family: Jost;
+}
